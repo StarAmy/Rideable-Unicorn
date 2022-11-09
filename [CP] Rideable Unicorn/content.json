@@ -1,0 +1,185 @@
+{
+    "Format": "1.20.0",
+   	"ConfigSchema": {
+ 		"HorseTack": {
+        	"AllowValues": "None, Brown, Black",
+        	"Default": "None",
+      	},
+      	"SaddleBlanket": {
+        	"AllowValues": "None, Black, White, Dark Grey, Light Grey, Brown, Red, Orange, Yellow, Light Green, Dark Green, Teal, Light Blue, Dark Blue, Purple, Pink, Magenta",
+        	"Default": "None",
+    	},
+   },
+    "Changes": [
+        {//horse colors
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/unicorn.png",
+            "PatchMode": "Replace",
+        },
+
+        //horse tack
+		{
+			"Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/brown_tack.png",
+            "PatchMode": "Overlay",
+            "When": {
+            	"HorseTack": "Brown",
+         }
+		},
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_tack.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "HorseTack": "Black",
+         }
+        },//horse saddle blankets
+		{
+			"Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/black_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+            	"SaddleBlanket": "Black",
+         }
+		},
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/white_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "White",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_grey_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Dark Grey",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_grey_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Light Grey",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/brown_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Brown",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/red_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Red",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/orange_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Orange",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/yellow_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Yellow",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_green_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Light Green",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_green_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Dark Green",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/teal_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Teal",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/light_blue_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Light Blue",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/dark_blue_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Dark Blue",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/purple_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Purple",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/pink_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Pink",
+         }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Horse",
+            "FromFile": "assets/magenta_blanket.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "SaddleBlanket": "Magenta",
+         }
+        }
+	 ]
+}
